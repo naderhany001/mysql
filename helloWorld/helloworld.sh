@@ -1,7 +1,8 @@
 #!/bin/bash
 
 JAVA_LIBS='/usr/share/java/mysql-connector-java-8.3.0.jar'
-
+# this also will work fine 
+#export CLASSPATH=/usr/share/java/mysql-connector-java-8.3.0.jar:$CLASSPATH
 
 # Check if at least one argument is provided
 if [ $# -eq 0 ]; then
